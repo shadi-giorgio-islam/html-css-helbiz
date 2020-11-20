@@ -325,6 +325,10 @@
 }
 
 @media screen and (max-width:768px){
+  .col-xs-offset-0 {
+    margin-left: 0;
+  }
+
   .col-xs-offset-1 {
     margin-left: calc(100% / 12 * 1);
   }

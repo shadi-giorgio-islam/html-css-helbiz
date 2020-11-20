@@ -79,7 +79,7 @@ ul.navbar-language :not(li:last-child) a {
 
 /* inizio main */
 
-/* inizio sezione prodotii */
+/* inizio sezione prodotti */
 #prodotti{
   margin: 50px 0;
 }
@@ -102,4 +102,45 @@ ul.navbar-language :not(li:last-child) a {
 }
 #prodotti img{
   height: 265px;
+}
+
+/* inizio sezione steps */
+#steps{
+  margin: 50px 0;
+}
+#steps .steps-background{
+  background-image: url('../img/index-banner.1f6fd0a.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-position: 40% 0%;
+  position: relative;
+}
+@media screen and (max-width:768px){
+  #steps .steps-background{
+    margin-bottom: 115px;
+  }
+}
+#steps .row{
+  height: 115px;
+}
+#steps .steps-background img{
+  position: absolute;
+  top: 115px;
+  left: calc(50% - 255.66px / 2);
+}
+#steps h2{
+  font-size: 26px;
+  margin-top: 40px;
+}
+#steps h3{
+  font-size: 22px;
+  margin-top: 25px;
+}
+#steps p{
+  font-weight: 500;
+  margin-top: 5px;
+}
+#steps img{
+  height: 510px;
 }

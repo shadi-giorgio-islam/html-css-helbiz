@@ -144,3 +144,31 @@ ul.navbar-language :not(li:last-child) a {
 #steps img{
   height: 510px;
 }
+
+/* inizio sezione mobility */
+#mobility{
+  margin: 50px 0 10px;
+}
+#mobility .row{
+  background-image: url('../img/scooter.f0a0397.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+#mobility h2{
+  font-size: 26px;
+  margin-top: 200px;
+}
+#mobility p{
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+#mobility p a{
+  font-size: 22px;
+  font-weight: 500;
+  color: white;
+  margin-top: 20px;
+}

@@ -1,6 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size:16px;
+  color: #212529;
 }
 
 a {
@@ -74,4 +75,31 @@ ul.navbar-language :not(li:last-child) a {
   .jumbo h1 {
     font-size: 26px;
   }
+}
+
+/* inizio main */
+
+/* inizio sezione prodotii */
+#prodotti{
+  margin: 50px 0;
+}
+#prodotti h2{
+  font-size: 22px;
+  margin: 20px 0;
+}
+#prodotti h2 span{
+  font-size: 22px;
+  font-weight: 500;
+}
+#prodotti p{
+  margin: 20px 0;
+  font-weight: 500;
+}
+#prodotti a{
+  margin: 20px 0;
+  font-weight: 500;
+  color: #0070C8;
+}
+#prodotti img{
+  height: 265px;
 }

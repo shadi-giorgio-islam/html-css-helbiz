@@ -4,11 +4,6 @@
   border: 1px solid black;
 }
 
-.debug .row {
-  height: 150px;
-  /* line-height: 150px; */
-}
-
 .debug .row [class*="col-"] {
   height: 100%;
   /* text-align:center; */

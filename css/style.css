@@ -219,3 +219,30 @@ ul.navbar-language :not(li:last-child) a {
   font-weight: 500;
   color: white;
 }
+
+/* inizio sezione family */
+#family .family-background{
+  background-image: url('https://i.pinimg.com/originals/7b/44/a4/7b44a4f5219d76544e09df12e5bf2bfd.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+  margin-top: 20px;
+  position: relative;
+}
+#family .family-background .family-text{
+  color: black;
+  background-color: white;
+  padding: 40px 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#family .family-background .family-text p{
+  font-size: 22px;
+  font-weight: 500;
+}
+#family .family-background .family-text p .fab{
+  margin-right: 10px;
+}

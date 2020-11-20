@@ -124,10 +124,17 @@ ul.navbar-language :not(li:last-child) a {
 #steps .row{
   height: 115px;
 }
+@media screen and (max-width:768px){
+  #steps .row{
+    text-align: left;
+    margin-left: 30px;
+  }
+}
 #steps .steps-background img{
   position: absolute;
   top: 115px;
-  left: calc(50% - 255.66px / 2);
+  left: 50%;
+  transform: translateX( -50% );
 }
 #steps h2{
   font-size: 26px;
@@ -159,7 +166,7 @@ ul.navbar-language :not(li:last-child) a {
 }
 #mobility h2{
   font-size: 26px;
-  margin-top: 200px;
+  margin-top: 170px;
 }
 #mobility p{
   font-size: 22px;
@@ -171,4 +178,44 @@ ul.navbar-language :not(li:last-child) a {
   font-weight: 500;
   color: white;
   margin-top: 20px;
+}
+
+/* inizio sezione App */
+#app{
+  margin-top: 20px;
+}
+#app .ride{
+  background: linear-gradient(#41566a,#252f38);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+@media screen and (max-width:768px){
+  #app .ride{
+    margin-bottom: 20px;
+  }
+}
+#app .ride img{
+  height: 300px;
+  margin-top: 38px;
+}
+#app .globe{
+  background-image: url('../img/city.7c8c928.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+#app h2{
+  font-size: 26px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+#app p a{
+  font-size: 22px;
+  font-weight: 500;
+  color: white;
 }

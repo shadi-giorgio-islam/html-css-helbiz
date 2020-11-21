@@ -39,9 +39,17 @@ ul.navbar-language li a {
 .header-top .logo {
   vertical-align: middle;
 }
+.navbar-language{
+  margin-left: 20px;
+}
 
-ul.navbar-language :not(li:last-child) a {
+ul.navbar-language li a{
   border-right: 2px solid black;
+  padding-right: 10px;
+}
+
+ul.navbar-language li:last-child a{
+  border-right: none;
   padding-right: 10px;
 }
 
@@ -148,6 +156,7 @@ ul.navbar-language :not(li:last-child) a {
   font-weight: 500;
   margin-top: 5px;
 }
+
 #steps img{
   height: 510px;
 }
@@ -156,6 +165,11 @@ ul.navbar-language :not(li:last-child) a {
 #mobility{
   margin: 50px 0 10px;
 }
+@media screen and (max-width:768px){
+  #mobility{
+    margin-top: 90px;
+  }
+}
 #mobility .row{
   background-image: url('../img/scooter.f0a0397.jpg');
   height: 500px;
@@ -163,6 +177,12 @@ ul.navbar-language :not(li:last-child) a {
   background-size: cover;
   color: white;
   text-align: center;
+  padding: 0 20px;
+}
+@media screen and (max-width:768px){
+  #mobility .row{
+    background-position: 100% 50%;
+  }
 }
 #mobility h2{
   font-size: 26px;
@@ -217,6 +237,7 @@ ul.navbar-language :not(li:last-child) a {
 #app p a{
   font-size: 22px;
   font-weight: 500;
+  margin-right: 10px;
   color: white;
 }
 
@@ -245,4 +266,74 @@ ul.navbar-language :not(li:last-child) a {
 }
 #family .family-background .family-text p .fab{
   margin-right: 10px;
+}
+
+/* inizio footer */
+footer{
+  background-color: black;
+  margin-top: 20px;
+  color: white;
+}
+@media screen and (max-width:768px){
+  footer{
+    text-align: center;
+  }
+}
+footer .row [class*="col-"]{
+  margin: 20px 0;
+}
+footer .container{
+  padding: 50px 0;
+  line-height: 1.6;
+}
+footer .footer-top{
+  border-bottom: 1px solid white;
+  padding: 30px 0;
+}
+footer .footer-top a{
+  color: white;
+}
+footer .footer-middle{
+  border-bottom: 1px solid white;
+  padding: 30px 0;
+}
+footer .footer-middle a{
+  color: white;
+  margin-right: 10px;
+}
+footer .footer-bottom{
+  margin: 90px 0;
+}
+footer .footer-bottom-left{
+  text-align: right;
+  height: 100px;
+}
+footer .footer-bottom-left a{
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-right: 20px;
+  padding: 20px 100px;
+  background-image: url('../img/app-store-badge.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+footer .footer-bottom-right{
+  text-align: left;
+  height: 100px;
+}
+footer .footer-bottom-right a{
+  background-image: url('../img/google-play-badge.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 20px 100px;
+}
+@media screen and (max-width:768px){
+  footer .footer-bottom-left,
+  footer .footer-bottom-right{
+    text-align: center;
+  }
 }
